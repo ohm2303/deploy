@@ -1,0 +1,8 @@
+name: print text from demo.html
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: print text from demo.html
+      run: echo "Hello World"
