@@ -4,6 +4,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout code
+    - uses: actions/checkout@v2
     
-    - name: print text from demo.html
-      run: echo "Hello World"
+    - name: print
+      run: cat demo.html
