@@ -1,4 +1,4 @@
-import { helloworld, one_plus } from "./Utils";
+const { helloworld, one_plus } = require("./Utils");
 
 if(helloworld() === "hello world")
 {
