@@ -20,7 +20,7 @@ jobs:
 
     - name: Run functional_test1
       run: |
-        output=$(node func_test1.js)
+        output=$(node test_function.js)
         # Capture the exit code of the previous command
         exit_code=$output
 
