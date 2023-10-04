@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: '14'
 
-    - name: Run functional_test1
+    - name: Run test_function
       run: |
         output=$(node func_test1.js)
         # Capture the exit code of the previous command
